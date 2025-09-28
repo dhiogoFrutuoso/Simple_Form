@@ -2,7 +2,7 @@
 
 Web application for creating and managing dynamic forms, developed with Node.js, Express, Handlebars, and MySQL.
 
-![Formulary Screenshot](https://via.placeholder.com/1200x600.png?text=Formulary+App)  
+![Formulary Screenshot](https://via.placeholder.com/1200x600.png?text=Formulary+App)
 *Example of the Formulary interface*
 
 ---
@@ -15,10 +15,10 @@ Web application for creating and managing dynamic forms, developed with Node.js,
 
 ## 🛠️ Technologies Used
 
-- **Backend**: Node.js with Express
-- **Template Engine**: Handlebars
-- **Database**: MySQL
-- **Frontend**: HTML, CSS (with optional integration with frameworks like Bootstrap or Tailwind)
+-   **Backend**: Node.js with Express
+-   **Template Engine**: Handlebars
+-   **Database**: MySQL
+-   **Frontend**: HTML, CSS (with optional integration with frameworks like Bootstrap or Tailwind)
 
 ---
 
@@ -26,66 +26,68 @@ Web application for creating and managing dynamic forms, developed with Node.js,
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (recommended LTS version)
-- [MySQL](https://www.mysql.com/) or [XAMPP](https://www.apachefriends.org/index.html) with MySQL
+-   [Node.js](https://nodejs.org/) (recommended LTS version)
+-   [MySQL](https://www.mysql.com/) or [XAMPP](https://www.apachefriends.org/index.html) with MySQL
 
 ### Steps
 
-1. Clone the repository:
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/dhiogoFrutuoso/Formulary.git](https://github.com/dhiogoFrutuoso/Formulary.git)
+    cd Formulary
+    ```
 
-   ```bash
-   git clone https://github.com/dhiogoFrutuoso/Formulary.git
-   cd Formulary
-Install dependencies:
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
 
-bash
-Copy code
-npm install
-Configure the database:
+3.  Configure the database:
+    -   Create a MySQL database named `formulary`.
+    -   Import the `database.sql` file (if available) or create the tables manually as needed.
 
-Create a MySQL database named formulary.
+4.  Start the server:
+    ```bash
+    npm start
+    ```
+    The application will be available at `http://localhost:3000`.
 
-Import the database.sql file (if available) or create the tables manually as needed.
+---
 
-Start the server:
+## 🎯 Features
 
-bash
-Copy code
-npm start
-The application will be available at http://localhost:3000.
+-   Create forms with multiple field types.
+-   Store responses in the database.
+-   Administrative interface to view and manage forms and responses.
+-   (Add other features as per the project)
 
-🎯 Features
-Create forms with multiple field types.
+---
 
-Store responses in the database.
+## 🧪 Testing
 
-Administrative interface to view and manage forms and responses.
-
-(Add other features as per the project)
-
-🧪 Testing
 To run tests (if any):
 
-bash
-Copy code
+```bash
 npm test
-🤝 Contributing
+```
+
+## 🤝 Contributing
 Contributions are welcome! To contribute:
 
-Fork the repository.
+1. Fork the repository.
 
-Create a branch for your feature: git checkout -b my-feature.
+2. Create a branch for your feature: git checkout -b my-feature.
 
-Commit your changes: git commit -am 'Add new feature'.
+3. Commit your changes: git commit -am 'Add new feature'.
 
-Push to the remote repository: git push origin my-feature.
+4. Push to the remote repository: git push origin my-feature.
 
-Open a pull request.
+5. Open a pull request.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
-📌 Contact
+## 📌 Contact
 GitHub: @dhiogoFrutuoso
 
 Email: dhiogofrutuoso@gmail.com
