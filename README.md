@@ -2,8 +2,6 @@
 
 Web application for creating and managing dynamic forms, developed with Node.js, Express, Handlebars, and MySQL.
 
-![Formulary Screenshot](https://via.placeholder.com/1200x600.png?text=Formulary+App)
-*Example of the Formulary interface*
 
 ---
 
