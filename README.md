@@ -1,4 +1,4 @@
-# Formulary
+# Form
 
 Web application for creating and managing dynamic forms, developed with Node.js, Express, Handlebars, and MySQL.
 
